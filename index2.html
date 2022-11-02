@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
+  <title>i-note</title>
   <script src="https://kit.fontawesome.com/943a261f09.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
     <!-- Nav Bar -->
    <div class="container-fluid">
     <nav class="navbar navbar-expand-md navbar-dark">
-      <a class="navbar-brand" href="#title">tindog</a>
+      <a class="navbar-brand" href="#title">i-note</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,7 +32,7 @@
         </li>
         
         <li class="nav-list">
-          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#pricing" class="nav-link">Personalised notes</a>
         </li>
         
         <li class="nav-list">
@@ -45,7 +45,9 @@
     <!-- Title -->
 <div class="row">
     <div class="col-md-6">
-      <h1>Meet new and interesting dogs nearby.</h1>
+      <h1>Now you can store your handmade notes and create a personalised memo for yourself in a single space-time.
+        Note-making has never been this easy.
+      </h1>
       
       <button type="button" class="btn btn-dark btn-lg download-button">
        <i class="fa fa-apple" aria-hidden="true"></i> Download
@@ -55,7 +57,7 @@
      
     </div>
     <div class="col-md-6">
-      <img src="iphone6.png" alt="iphone-mockup" class="title-image">
+      <img src="logo.webp" alt="iphone-mockup" class="title-image" width="200">
     </div>
 </div>
 </div>
@@ -74,12 +76,12 @@
  <div class="col-md-4 features-box">
   <i class="fa-solid fa-bullseye icon"></i>
     <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+    <p>We provide database for you to store and share your notes to anyone and anywhere.</p>
  </div>
  <div class="col-md-4 features-box">
   <i class="fa-solid fa-heart icon"></i>
     <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+    <p>Find what you need.</p>
 </div>
    </div>
   </section>
@@ -92,14 +94,14 @@
    <div id="carousel-Fade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img class="testimonials-image" src="dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+    <h2>I no longer have to worry about taking notes, now i can work efficiently thanks to it.</h2>
+    <img class="testimonials-image" src="student 1.png" alt="dog-profile" width="300">
+    <em>a student at xyz university</em>
     </div>
     <div class="carousel-item">
-     <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonials-image" src="lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em>
+     <h2 class="testimonial-text">i used to worry a lot before exams in need for short and concise notes. But not now, as i have found what i need</h2>
+    <img class="testimonials-image" src="student 2.jpg" alt="lady-profile" width="300">
+    <em>a student at abc school</em>
 
     </div>
     
@@ -117,83 +119,38 @@
   </section>
 
 
-  <!-- Press -->
+ <select name="clr" onchange="document.bgColor=this.options[this.selectedIndex].value" size="1">
+    <br>
+    <option value="black">black
+        <option value="orange">orange
+            <option value="flamingred">fuschia
+                <option value="lightyellow">light yellow
+                    <option value="green">green
+                        <option value="cyan">cyan
+                            <option value="yellow">yellow
+                                <option value="red">red
+                                    <option value="white">white</option>
+</select>&nbsp;&nbsp;Background Color
 
-  <section id="press">
-    <img class="press-image" src="tnw.png" alt="tnw-logo">
-    <img class="press-image" src="bizinsider.png" alt="biz-insider-logo">
-    <img class="press-image" src="mashable.png" alt="mashable-logo">
-    <img class="press-image" src="techcrunch.png" alt="tc-logo">
-
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section id="pricing">
-<h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-  <div class="card-deck">
-
-<div class="row">
-   <div class="col-md-4 pricing-column">
-    <div class="card">
-   <div class="card-header">
-    
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-   </div>
-   <div class="card-body">
-
-
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button" class="btn btn-lg btn-outline-dark btn-block">Sign Up</button>
-
-   </div>
-   </div>
-   </div>
-   <div class="col-md-4 pricing-column">
-    <div class="card">
-    <div class="card-header">
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    </div>
-    <div class="card-body">
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
-    </div>
-   </div>
-   </div>
-   <div class="col-md-4 pricing-column">
-   <div class="card">
-    
-   <div class="card-header">
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-   </div>
-   <div class="card-body">
-    
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
-   </div>
-   </div>
-  </div>
-  </div>
-  </section>
+<br>
+<select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
+    <br>
+    <option value="black">black
+        <option value="orange">orange
+            <option value="flamingred">fuschia
+                <option value="lightyellow">light yellow
+                    <option value="cyan">cyan
+                        <option value="yellow">yellow
+                            <option value="red">red
+                                <option value="white">white</option>
+</select>&nbsp;&nbsp;Text Color
 
 
   <!-- Call to Action -->
 
   <section id="cta">
 
-    <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <h3 class="cta-heading">Now nobody has to worry to find their notes &#128516</h3>
     <button type="button" class="btn btn-lg btn-dark download-button"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
     <button type="button" class="btn btn-lg btn-outline-light download-button"><i class="fa-brands fa-google-play"></i> Download</button>
 
@@ -207,7 +164,7 @@
 <i class="fa-brands fa-square-facebook con"></i>
 <i class="fa-brands fa-linkedin con"></i>
 <i class="fa-brands fa-whatsapp con"></i>
-    <p>© Copyright 2018 TinDog</p>
+    <p>© Copyright 2022 i-note</p>
 
   </footer>
 
